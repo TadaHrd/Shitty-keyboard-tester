@@ -1,0 +1,1135 @@
+[gd_scene load_steps=223 format=2]
+
+[ext_resource path="res://pictures/W.png" type="Texture" id=1]
+[ext_resource path="res://pictures/Winv.png" type="Texture" id=2]
+[ext_resource path="res://scripts/W.gd" type="Script" id=3]
+[ext_resource path="res://scripts/A.gd" type="Script" id=4]
+[ext_resource path="res://pictures/A.png" type="Texture" id=5]
+[ext_resource path="res://pictures/Ainv.png" type="Texture" id=6]
+[ext_resource path="res://scripts/Q.gd" type="Script" id=7]
+[ext_resource path="res://pictures/Q.png" type="Texture" id=8]
+[ext_resource path="res://pictures/Qinv.png" type="Texture" id=9]
+[ext_resource path="res://pictures/O.png" type="Texture" id=10]
+[ext_resource path="res://pictures/P.png" type="Texture" id=11]
+[ext_resource path="res://pictures/Oinv.png" type="Texture" id=12]
+[ext_resource path="res://pictures/Pinv.png" type="Texture" id=13]
+[ext_resource path="res://pictures/Iinv.png" type="Texture" id=14]
+[ext_resource path="res://pictures/U.png" type="Texture" id=15]
+[ext_resource path="res://pictures/Uinv.png" type="Texture" id=16]
+[ext_resource path="res://pictures/I.png" type="Texture" id=17]
+[ext_resource path="res://pictures/T.png" type="Texture" id=18]
+[ext_resource path="res://pictures/Einv.png" type="Texture" id=19]
+[ext_resource path="res://pictures/E.png" type="Texture" id=20]
+[ext_resource path="res://pictures/R.png" type="Texture" id=21]
+[ext_resource path="res://pictures/Tinv.png" type="Texture" id=22]
+[ext_resource path="res://pictures/Rinv.png" type="Texture" id=23]
+[ext_resource path="res://pictures/Y(Z).png" type="Texture" id=24]
+[ext_resource path="res://pictures/Y(Z)inv.png" type="Texture" id=25]
+[ext_resource path="res://scripts/T.gd" type="Script" id=26]
+[ext_resource path="res://scripts/R.gd" type="Script" id=27]
+[ext_resource path="res://scripts/E.gd" type="Script" id=28]
+[ext_resource path="res://scripts/O.gd" type="Script" id=29]
+[ext_resource path="res://scripts/U.gd" type="Script" id=30]
+[ext_resource path="res://scripts/Y.gd" type="Script" id=31]
+[ext_resource path="res://scripts/P.gd" type="Script" id=32]
+[ext_resource path="res://scripts/I.gd" type="Script" id=33]
+[ext_resource path="res://scripts/G.gd" type="Script" id=34]
+[ext_resource path="res://scripts/D.gd" type="Script" id=35]
+[ext_resource path="res://scripts/H.gd" type="Script" id=36]
+[ext_resource path="res://scripts/j.gd" type="Script" id=37]
+[ext_resource path="res://scripts/S.gd" type="Script" id=38]
+[ext_resource path="res://scripts/K.gd" type="Script" id=39]
+[ext_resource path="res://scripts/L.gd" type="Script" id=40]
+[ext_resource path="res://scripts/F.gd" type="Script" id=41]
+[ext_resource path="res://pictures/Sinv.png" type="Texture" id=42]
+[ext_resource path="res://pictures/S.png" type="Texture" id=43]
+[ext_resource path="res://pictures/D.png" type="Texture" id=44]
+[ext_resource path="res://pictures/Dinv.png" type="Texture" id=45]
+[ext_resource path="res://pictures/J.png" type="Texture" id=46]
+[ext_resource path="res://pictures/L.png" type="Texture" id=47]
+[ext_resource path="res://pictures/F.png" type="Texture" id=48]
+[ext_resource path="res://pictures/K.png" type="Texture" id=49]
+[ext_resource path="res://pictures/Linv.png" type="Texture" id=50]
+[ext_resource path="res://pictures/Ginv.png" type="Texture" id=51]
+[ext_resource path="res://pictures/Finv.png" type="Texture" id=52]
+[ext_resource path="res://pictures/Jinv.png" type="Texture" id=53]
+[ext_resource path="res://pictures/Kinv.png" type="Texture" id=54]
+[ext_resource path="res://pictures/G.png" type="Texture" id=55]
+[ext_resource path="res://pictures/H.png" type="Texture" id=56]
+[ext_resource path="res://pictures/Hinv.png" type="Texture" id=57]
+[ext_resource path="res://pictures/CAPS_SYMB.png" type="Texture" id=58]
+[ext_resource path="res://pictures/CAPSinv.png" type="Texture" id=59]
+[ext_resource path="res://pictures/CAPS.png" type="Texture" id=60]
+[ext_resource path="res://scripts/CapsLock.gd" type="Script" id=61]
+[ext_resource path="res://scripts/Shift.gd" type="Script" id=62]
+[ext_resource path="res://pictures/SHIFT.png" type="Texture" id=63]
+[ext_resource path="res://pictures/SHIFTinv.png" type="Texture" id=64]
+[ext_resource path="res://scripts/Z.gd" type="Script" id=65]
+[ext_resource path="res://pictures/Zinv.png" type="Texture" id=66]
+[ext_resource path="res://pictures/Z.png" type="Texture" id=67]
+[ext_resource path="res://pictures/N.png" type="Texture" id=68]
+[ext_resource path="res://pictures/V.png" type="Texture" id=69]
+[ext_resource path="res://pictures/Minv.png" type="Texture" id=70]
+[ext_resource path="res://pictures/X.png" type="Texture" id=71]
+[ext_resource path="res://pictures/Xinv.png" type="Texture" id=72]
+[ext_resource path="res://pictures/B.png" type="Texture" id=73]
+[ext_resource path="res://pictures/C.png" type="Texture" id=74]
+[ext_resource path="res://pictures/Vinv.png" type="Texture" id=75]
+[ext_resource path="res://pictures/Binv.png" type="Texture" id=76]
+[ext_resource path="res://pictures/Ninv.png" type="Texture" id=77]
+[ext_resource path="res://pictures/Cinv.png" type="Texture" id=78]
+[ext_resource path="res://pictures/M.png" type="Texture" id=79]
+[ext_resource path="res://scripts/N.gd" type="Script" id=80]
+[ext_resource path="res://scripts/X.gd" type="Script" id=81]
+[ext_resource path="res://scripts/B.gd" type="Script" id=82]
+[ext_resource path="res://scripts/V.gd" type="Script" id=83]
+[ext_resource path="res://scripts/C.gd" type="Script" id=84]
+[ext_resource path="res://scripts/M.gd" type="Script" id=85]
+[ext_resource path="res://scripts/Player direction.gd" type="Script" id=86]
+[ext_resource path="res://pictures/Arrow.png" type="Texture" id=87]
+[ext_resource path="res://scripts/{.gd" type="Script" id=88]
+[ext_resource path="res://scripts/}.gd" type="Script" id=89]
+[ext_resource path="res://pictures/BracketLeft.png" type="Texture" id=90]
+[ext_resource path="res://pictures/BracketLeftInv.png" type="Texture" id=91]
+[ext_resource path="res://pictures/BracketRight.png" type="Texture" id=92]
+[ext_resource path="res://pictures/BracketRightInv.png" type="Texture" id=93]
+[ext_resource path="res://scripts/'.gd" type="Script" id=94]
+[ext_resource path="res://scripts/;.gd" type="Script" id=95]
+[ext_resource path="res://pictures/'inv.png" type="Texture" id=96]
+[ext_resource path="res://pictures/'.png" type="Texture" id=97]
+[ext_resource path="res://pictures/;inv.png" type="Texture" id=98]
+[ext_resource path="res://pictures/;.png" type="Texture" id=99]
+[ext_resource path="res://scripts/backslash.gd" type="Script" id=100]
+[ext_resource path="res://pictures/backslash.png" type="Texture" id=101]
+[ext_resource path="res://pictures/backslashInv.png" type="Texture" id=102]
+[ext_resource path="res://scripts/quoteLeft.gd" type="Script" id=103]
+[ext_resource path="res://pictures/quoteLeftInv.png" type="Texture" id=104]
+[ext_resource path="res://pictures/quoteLeft.png" type="Texture" id=105]
+[ext_resource path="res://scripts/0.gd" type="Script" id=106]
+[ext_resource path="res://scripts/9.gd" type="Script" id=107]
+[ext_resource path="res://scripts/6.gd" type="Script" id=108]
+[ext_resource path="res://scripts/7.gd" type="Script" id=109]
+[ext_resource path="res://scripts/8.gd" type="Script" id=110]
+[ext_resource path="res://scripts/5.gd" type="Script" id=111]
+[ext_resource path="res://scripts/1.gd" type="Script" id=112]
+[ext_resource path="res://scripts/2.gd" type="Script" id=113]
+[ext_resource path="res://scripts/3.gd" type="Script" id=114]
+[ext_resource path="res://scripts/4.gd" type="Script" id=115]
+[ext_resource path="res://pictures/3inv.png" type="Texture" id=116]
+[ext_resource path="res://pictures/1.png" type="Texture" id=117]
+[ext_resource path="res://pictures/1inv.png" type="Texture" id=118]
+[ext_resource path="res://pictures/2inv.png" type="Texture" id=119]
+[ext_resource path="res://pictures/2.png" type="Texture" id=120]
+[ext_resource path="res://pictures/3.png" type="Texture" id=121]
+[ext_resource path="res://pictures/0inv.png" type="Texture" id=122]
+[ext_resource path="res://pictures/9.png" type="Texture" id=123]
+[ext_resource path="res://pictures/0.png" type="Texture" id=124]
+[ext_resource path="res://pictures/9inv.png" type="Texture" id=125]
+[ext_resource path="res://pictures/4.png" type="Texture" id=126]
+[ext_resource path="res://pictures/4inv.png" type="Texture" id=127]
+[ext_resource path="res://pictures/5.png" type="Texture" id=128]
+[ext_resource path="res://pictures/5inv.png" type="Texture" id=129]
+[ext_resource path="res://pictures/7.png" type="Texture" id=130]
+[ext_resource path="res://pictures/7inv.png" type="Texture" id=131]
+[ext_resource path="res://pictures/8inv.png" type="Texture" id=132]
+[ext_resource path="res://pictures/8.png" type="Texture" id=133]
+[ext_resource path="res://pictures/6.png" type="Texture" id=134]
+[ext_resource path="res://pictures/6inv.png" type="Texture" id=135]
+[ext_resource path="res://scripts/-.gd" type="Script" id=136]
+[ext_resource path="res://scripts/=.gd" type="Script" id=137]
+[ext_resource path="res://pictures/-inv.png" type="Texture" id=138]
+[ext_resource path="res://pictures/-.png" type="Texture" id=139]
+[ext_resource path="res://pictures/equalsInv.png" type="Texture" id=140]
+[ext_resource path="res://pictures/equals.png" type="Texture" id=141]
+[ext_resource path="res://scripts/Tab.gd" type="Script" id=142]
+[ext_resource path="res://pictures/Tab.png" type="Texture" id=143]
+[ext_resource path="res://pictures/TabInv.png" type="Texture" id=144]
+[ext_resource path="res://scripts/Enter.gd" type="Script" id=145]
+[ext_resource path="res://pictures/Enter.png" type="Texture" id=146]
+[ext_resource path="res://pictures/EnterInv.png" type="Texture" id=147]
+[ext_resource path="res://pictures/F8inv.png" type="Texture" id=148]
+[ext_resource path="res://pictures/F11inv.png" type="Texture" id=149]
+[ext_resource path="res://pictures/F10inv.png" type="Texture" id=150]
+[ext_resource path="res://pictures/F12inv.png" type="Texture" id=151]
+[ext_resource path="res://pictures/F6inv.png" type="Texture" id=152]
+[ext_resource path="res://pictures/F12.png" type="Texture" id=153]
+[ext_resource path="res://pictures/F7.png" type="Texture" id=154]
+[ext_resource path="res://pictures/F10.png" type="Texture" id=155]
+[ext_resource path="res://pictures/F7inv.png" type="Texture" id=156]
+[ext_resource path="res://pictures/F9.png" type="Texture" id=157]
+[ext_resource path="res://pictures/F6.png" type="Texture" id=158]
+[ext_resource path="res://pictures/F9inv.png" type="Texture" id=159]
+[ext_resource path="res://pictures/F11.png" type="Texture" id=160]
+[ext_resource path="res://pictures/F8.png" type="Texture" id=161]
+[ext_resource path="res://scripts/F1.gd" type="Script" id=162]
+[ext_resource path="res://scripts/F2.gd" type="Script" id=163]
+[ext_resource path="res://scripts/F6.gd" type="Script" id=164]
+[ext_resource path="res://scripts/F7.gd" type="Script" id=165]
+[ext_resource path="res://scripts/F3.gd" type="Script" id=166]
+[ext_resource path="res://scripts/Esc.gd" type="Script" id=167]
+[ext_resource path="res://scripts/F4.gd" type="Script" id=168]
+[ext_resource path="res://scripts/F5.gd" type="Script" id=169]
+[ext_resource path="res://pictures/Esc.png" type="Texture" id=170]
+[ext_resource path="res://pictures/F1.png" type="Texture" id=171]
+[ext_resource path="res://pictures/EscInv.png" type="Texture" id=172]
+[ext_resource path="res://pictures/F1inv.png" type="Texture" id=173]
+[ext_resource path="res://pictures/F2.png" type="Texture" id=174]
+[ext_resource path="res://pictures/F2inv.png" type="Texture" id=175]
+[ext_resource path="res://pictures/F3inv.png" type="Texture" id=176]
+[ext_resource path="res://pictures/F4inv.png" type="Texture" id=177]
+[ext_resource path="res://pictures/F5.png" type="Texture" id=178]
+[ext_resource path="res://pictures/F5inv.png" type="Texture" id=179]
+[ext_resource path="res://pictures/F4.png" type="Texture" id=180]
+[ext_resource path="res://pictures/F3.png" type="Texture" id=181]
+[ext_resource path="res://scripts/F10.gd" type="Script" id=182]
+[ext_resource path="res://scripts/F12.gd" type="Script" id=183]
+[ext_resource path="res://scripts/F8.gd" type="Script" id=184]
+[ext_resource path="res://scripts/F9.gd" type="Script" id=185]
+[ext_resource path="res://scripts/F11.gd" type="Script" id=186]
+[ext_resource path="res://scripts/Period.gd" type="Script" id=187]
+[ext_resource path="res://scripts/slash.gd" type="Script" id=188]
+[ext_resource path="res://scripts/,.gd" type="Script" id=189]
+[ext_resource path="res://pictures/slash.png" type="Texture" id=190]
+[ext_resource path="res://pictures/dotInv.png" type="Texture" id=191]
+[ext_resource path="res://pictures/dot.png" type="Texture" id=192]
+[ext_resource path="res://pictures/,.png" type="Texture" id=193]
+[ext_resource path="res://pictures/,inv.png" type="Texture" id=194]
+[ext_resource path="res://pictures/slashInv.png" type="Texture" id=195]
+[ext_resource path="res://scripts/RightShift.gd" type="Script" id=196]
+[ext_resource path="res://scripts/BackSpace.gd" type="Script" id=197]
+[ext_resource path="res://pictures/Backspace.png" type="Texture" id=198]
+[ext_resource path="res://pictures/BackspaceInv.png" type="Texture" id=199]
+[ext_resource path="res://scripts/Ctrl.gd" type="Script" id=200]
+[ext_resource path="res://pictures/Alt.png" type="Texture" id=201]
+[ext_resource path="res://pictures/Ctrl.png" type="Texture" id=202]
+[ext_resource path="res://pictures/SpaceInv.png" type="Texture" id=203]
+[ext_resource path="res://pictures/Space.png" type="Texture" id=204]
+[ext_resource path="res://pictures/CtrlInv.png" type="Texture" id=205]
+[ext_resource path="res://pictures/Meta.png" type="Texture" id=206]
+[ext_resource path="res://pictures/MetaInv.png" type="Texture" id=207]
+[ext_resource path="res://pictures/AltInv.png" type="Texture" id=208]
+[ext_resource path="res://pictures/AltGrInv.png" type="Texture" id=209]
+[ext_resource path="res://pictures/MenuInv.png" type="Texture" id=210]
+[ext_resource path="res://pictures/Menu.png" type="Texture" id=211]
+[ext_resource path="res://pictures/AltGr.png" type="Texture" id=212]
+[ext_resource path="res://pictures/FnInv.png" type="Texture" id=213]
+[ext_resource path="res://pictures/Fn.png" type="Texture" id=214]
+[ext_resource path="res://scripts/Alt Gr.gd" type="Script" id=215]
+[ext_resource path="res://scripts/Fn.gd" type="Script" id=216]
+[ext_resource path="res://scripts/Menu.gd" type="Script" id=217]
+[ext_resource path="res://scripts/RightCtrl.gd" type="Script" id=218]
+[ext_resource path="res://scripts/Space.gd" type="Script" id=219]
+[ext_resource path="res://scripts/Meta.gd" type="Script" id=220]
+[ext_resource path="res://scripts/Alt.gd" type="Script" id=221]
+
+[sub_resource type="CanvasItemMaterial" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Text" type="Control" parent="."]
+anchor_right = 0.2
+margin_left = 25.0
+margin_right = -248.0
+
+[node name="CapsLock" type="RichTextLabel" parent="Text"]
+margin_right = 248.0
+margin_bottom = 46.0
+rect_scale = Vector2( 2, 2 )
+text = "Press F1 + F2 + R to toggle CapsLock
+Press F1 + F2 + F to toggle NumLock (undone)
+Press F1 + F2 + G to toggle ScrollLock (undone)"
+
+[node name="Player direction" type="Control" parent="."]
+material = SubResource( 1 )
+margin_left = 1270.0
+margin_top = 640.0
+margin_right = 1270.0
+margin_bottom = 640.0
+script = ExtResource( 86 )
+
+[node name="TextureRect" type="TextureRect" parent="Player direction"]
+margin_right = 64.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 32, 64 )
+texture = ExtResource( 87 )
+
+[node name="ColorRect" type="ColorRect" parent="Player direction"]
+show_behind_parent = true
+margin_left = -32.0
+margin_right = 96.0
+margin_bottom = 128.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Player direction"]
+margin_left = -31.0
+margin_top = -50.0
+margin_right = 69.0
+margin_bottom = -22.0
+rect_scale = Vector2( 1.75, 1.75 )
+text = "Player walk direction
+(My code sucks btw)"
+
+[node name="Esc" type="Control" parent="."]
+margin_top = 156.0
+script = ExtResource( 167 )
+
+[node name="normal" type="TextureRect" parent="Esc"]
+texture = ExtResource( 170 )
+
+[node name="pressed" type="TextureRect" parent="Esc"]
+texture = ExtResource( 172 )
+
+[node name="F1" type="Control" parent="."]
+margin_left = 140.0
+margin_top = 156.0
+script = ExtResource( 162 )
+
+[node name="normal" type="TextureRect" parent="F1"]
+texture = ExtResource( 171 )
+
+[node name="pressed" type="TextureRect" parent="F1"]
+texture = ExtResource( 173 )
+
+[node name="F2" type="Control" parent="."]
+margin_left = 210.0
+margin_top = 156.0
+script = ExtResource( 163 )
+
+[node name="normal" type="TextureRect" parent="F2"]
+texture = ExtResource( 174 )
+
+[node name="pressed" type="TextureRect" parent="F2"]
+texture = ExtResource( 175 )
+
+[node name="F3" type="Control" parent="."]
+margin_left = 280.0
+margin_top = 156.0
+script = ExtResource( 166 )
+
+[node name="normal" type="TextureRect" parent="F3"]
+texture = ExtResource( 181 )
+
+[node name="pressed" type="TextureRect" parent="F3"]
+texture = ExtResource( 176 )
+
+[node name="F4" type="Control" parent="."]
+margin_left = 350.0
+margin_top = 156.0
+script = ExtResource( 168 )
+
+[node name="normal" type="TextureRect" parent="F4"]
+texture = ExtResource( 180 )
+
+[node name="pressed" type="TextureRect" parent="F4"]
+texture = ExtResource( 177 )
+
+[node name="F5" type="Control" parent="."]
+margin_left = 455.0
+margin_top = 156.0
+script = ExtResource( 169 )
+
+[node name="normal" type="TextureRect" parent="F5"]
+texture = ExtResource( 178 )
+
+[node name="pressed" type="TextureRect" parent="F5"]
+texture = ExtResource( 179 )
+
+[node name="F6" type="Control" parent="."]
+margin_left = 525.0
+margin_top = 156.0
+script = ExtResource( 164 )
+
+[node name="normal" type="TextureRect" parent="F6"]
+texture = ExtResource( 158 )
+
+[node name="pressed" type="TextureRect" parent="F6"]
+texture = ExtResource( 152 )
+
+[node name="F7" type="Control" parent="."]
+margin_left = 595.0
+margin_top = 156.0
+script = ExtResource( 165 )
+
+[node name="normal" type="TextureRect" parent="F7"]
+texture = ExtResource( 154 )
+
+[node name="pressed" type="TextureRect" parent="F7"]
+texture = ExtResource( 156 )
+
+[node name="F8" type="Control" parent="."]
+margin_left = 665.0
+margin_top = 156.0
+script = ExtResource( 184 )
+
+[node name="normal" type="TextureRect" parent="F8"]
+texture = ExtResource( 161 )
+
+[node name="pressed" type="TextureRect" parent="F8"]
+texture = ExtResource( 148 )
+
+[node name="F9" type="Control" parent="."]
+margin_left = 764.0
+margin_top = 156.0
+script = ExtResource( 185 )
+
+[node name="normal" type="TextureRect" parent="F9"]
+texture = ExtResource( 157 )
+
+[node name="pressed" type="TextureRect" parent="F9"]
+texture = ExtResource( 159 )
+
+[node name="F10" type="Control" parent="."]
+margin_left = 834.0
+margin_top = 156.0
+script = ExtResource( 182 )
+
+[node name="normal" type="TextureRect" parent="F10"]
+texture = ExtResource( 155 )
+
+[node name="pressed" type="TextureRect" parent="F10"]
+texture = ExtResource( 150 )
+
+[node name="F11" type="Control" parent="."]
+margin_left = 904.0
+margin_top = 156.0
+script = ExtResource( 186 )
+
+[node name="normal" type="TextureRect" parent="F11"]
+texture = ExtResource( 160 )
+
+[node name="pressed" type="TextureRect" parent="F11"]
+texture = ExtResource( 149 )
+
+[node name="F12" type="Control" parent="."]
+margin_left = 974.0
+margin_top = 156.0
+script = ExtResource( 183 )
+
+[node name="normal" type="TextureRect" parent="F12"]
+texture = ExtResource( 153 )
+
+[node name="pressed" type="TextureRect" parent="F12"]
+texture = ExtResource( 151 )
+
+[node name="quoteLeft" type="Control" parent="."]
+margin_top = 226.0
+margin_bottom = 126.0
+script = ExtResource( 103 )
+
+[node name="normal" type="TextureRect" parent="quoteLeft"]
+texture = ExtResource( 105 )
+
+[node name="pressed" type="TextureRect" parent="quoteLeft"]
+texture = ExtResource( 104 )
+
+[node name="1" type="Control" parent="."]
+margin_left = 70.0
+margin_top = 226.0
+margin_bottom = 126.0
+script = ExtResource( 112 )
+
+[node name="normal" type="TextureRect" parent="1"]
+texture = ExtResource( 117 )
+
+[node name="pressed" type="TextureRect" parent="1"]
+texture = ExtResource( 118 )
+
+[node name="2" type="Control" parent="."]
+margin_left = 140.0
+margin_top = 226.0
+margin_bottom = 126.0
+script = ExtResource( 113 )
+
+[node name="normal" type="TextureRect" parent="2"]
+texture = ExtResource( 120 )
+
+[node name="pressed" type="TextureRect" parent="2"]
+texture = ExtResource( 119 )
+
+[node name="3" type="Control" parent="."]
+margin_left = 210.0
+margin_top = 226.0
+margin_bottom = 126.0
+script = ExtResource( 114 )
+
+[node name="normal" type="TextureRect" parent="3"]
+texture = ExtResource( 121 )
+
+[node name="pressed" type="TextureRect" parent="3"]
+texture = ExtResource( 116 )
+
+[node name="4" type="Control" parent="."]
+margin_left = 280.0
+margin_top = 226.0
+margin_bottom = 126.0
+script = ExtResource( 115 )
+
+[node name="normal" type="TextureRect" parent="4"]
+texture = ExtResource( 126 )
+
+[node name="pressed" type="TextureRect" parent="4"]
+texture = ExtResource( 127 )
+
+[node name="5" type="Control" parent="."]
+margin_left = 350.0
+margin_top = 226.0
+margin_bottom = 126.0
+script = ExtResource( 111 )
+
+[node name="normal" type="TextureRect" parent="5"]
+texture = ExtResource( 128 )
+
+[node name="pressed" type="TextureRect" parent="5"]
+texture = ExtResource( 129 )
+
+[node name="6" type="Control" parent="."]
+margin_left = 420.0
+margin_top = 226.0
+margin_bottom = 126.0
+script = ExtResource( 108 )
+
+[node name="normal" type="TextureRect" parent="6"]
+texture = ExtResource( 134 )
+
+[node name="pressed" type="TextureRect" parent="6"]
+texture = ExtResource( 135 )
+
+[node name="7" type="Control" parent="."]
+margin_left = 490.0
+margin_top = 226.0
+margin_bottom = 126.0
+script = ExtResource( 109 )
+
+[node name="normal" type="TextureRect" parent="7"]
+texture = ExtResource( 130 )
+
+[node name="pressed" type="TextureRect" parent="7"]
+texture = ExtResource( 131 )
+
+[node name="8" type="Control" parent="."]
+margin_left = 560.0
+margin_top = 226.0
+margin_bottom = 126.0
+script = ExtResource( 110 )
+
+[node name="normal" type="TextureRect" parent="8"]
+texture = ExtResource( 133 )
+
+[node name="pressed" type="TextureRect" parent="8"]
+texture = ExtResource( 132 )
+
+[node name="9" type="Control" parent="."]
+margin_left = 630.0
+margin_top = 226.0
+margin_bottom = 126.0
+script = ExtResource( 107 )
+
+[node name="normal" type="TextureRect" parent="9"]
+texture = ExtResource( 123 )
+
+[node name="pressed" type="TextureRect" parent="9"]
+texture = ExtResource( 125 )
+
+[node name="0" type="Control" parent="."]
+margin_left = 700.0
+margin_top = 226.0
+margin_bottom = 126.0
+script = ExtResource( 106 )
+
+[node name="normal" type="TextureRect" parent="0"]
+texture = ExtResource( 124 )
+
+[node name="pressed" type="TextureRect" parent="0"]
+texture = ExtResource( 122 )
+
+[node name="-" type="Control" parent="."]
+margin_left = 770.0
+margin_top = 226.0
+margin_bottom = 126.0
+script = ExtResource( 136 )
+
+[node name="normal" type="TextureRect" parent="-"]
+texture = ExtResource( 139 )
+
+[node name="pressed" type="TextureRect" parent="-"]
+texture = ExtResource( 138 )
+
+[node name="=" type="Control" parent="."]
+margin_left = 840.0
+margin_top = 226.0
+margin_bottom = 126.0
+script = ExtResource( 137 )
+
+[node name="normal" type="TextureRect" parent="="]
+texture = ExtResource( 141 )
+
+[node name="pressed" type="TextureRect" parent="="]
+texture = ExtResource( 140 )
+
+[node name="BackSpace" type="Control" parent="."]
+margin_left = 910.0
+margin_top = 226.0
+margin_bottom = 126.0
+rect_scale = Vector2( 1.146, 1 )
+script = ExtResource( 197 )
+
+[node name="normal" type="TextureRect" parent="BackSpace"]
+texture = ExtResource( 198 )
+
+[node name="pressed" type="TextureRect" parent="BackSpace"]
+texture = ExtResource( 199 )
+
+[node name="Tab" type="Control" parent="."]
+margin_top = 296.0
+script = ExtResource( 142 )
+
+[node name="normal" type="TextureRect" parent="Tab"]
+texture = ExtResource( 143 )
+
+[node name="pressed" type="TextureRect" parent="Tab"]
+texture = ExtResource( 144 )
+
+[node name="Q" type="Control" parent="."]
+margin_left = 102.0
+margin_top = 296.0
+margin_right = 102.0
+margin_bottom = 196.0
+script = ExtResource( 7 )
+
+[node name="normal" type="TextureRect" parent="Q"]
+texture = ExtResource( 8 )
+
+[node name="pressed" type="TextureRect" parent="Q"]
+texture = ExtResource( 9 )
+
+[node name="W" type="Control" parent="."]
+margin_left = 172.0
+margin_top = 296.0
+margin_right = 172.0
+margin_bottom = 196.0
+script = ExtResource( 3 )
+
+[node name="normal" type="TextureRect" parent="W"]
+texture = ExtResource( 1 )
+
+[node name="pressed" type="TextureRect" parent="W"]
+texture = ExtResource( 2 )
+
+[node name="E" type="Control" parent="."]
+margin_left = 242.0
+margin_top = 296.0
+margin_right = 242.0
+margin_bottom = 196.0
+script = ExtResource( 28 )
+
+[node name="normal" type="TextureRect" parent="E"]
+texture = ExtResource( 20 )
+
+[node name="pressed" type="TextureRect" parent="E"]
+texture = ExtResource( 19 )
+
+[node name="R" type="Control" parent="."]
+margin_left = 312.0
+margin_top = 296.0
+margin_right = 312.0
+margin_bottom = 196.0
+script = ExtResource( 27 )
+
+[node name="normal" type="TextureRect" parent="R"]
+texture = ExtResource( 21 )
+
+[node name="pressed" type="TextureRect" parent="R"]
+texture = ExtResource( 23 )
+
+[node name="T" type="Control" parent="."]
+margin_left = 382.0
+margin_top = 296.0
+margin_right = 382.0
+margin_bottom = 196.0
+script = ExtResource( 26 )
+
+[node name="normal" type="TextureRect" parent="T"]
+texture = ExtResource( 18 )
+
+[node name="pressed" type="TextureRect" parent="T"]
+texture = ExtResource( 22 )
+
+[node name="Y" type="Control" parent="."]
+margin_left = 452.0
+margin_top = 296.0
+margin_right = 452.0
+margin_bottom = 196.0
+script = ExtResource( 31 )
+
+[node name="normal" type="TextureRect" parent="Y"]
+texture = ExtResource( 24 )
+
+[node name="pressed" type="TextureRect" parent="Y"]
+texture = ExtResource( 25 )
+
+[node name="U" type="Control" parent="."]
+margin_left = 522.0
+margin_top = 296.0
+margin_right = 522.0
+margin_bottom = 196.0
+script = ExtResource( 30 )
+
+[node name="normal" type="TextureRect" parent="U"]
+texture = ExtResource( 15 )
+
+[node name="pressed" type="TextureRect" parent="U"]
+texture = ExtResource( 16 )
+
+[node name="I" type="Control" parent="."]
+margin_left = 592.0
+margin_top = 296.0
+margin_right = 592.0
+margin_bottom = 196.0
+script = ExtResource( 33 )
+
+[node name="normal" type="TextureRect" parent="I"]
+texture = ExtResource( 17 )
+
+[node name="pressed" type="TextureRect" parent="I"]
+texture = ExtResource( 14 )
+
+[node name="O" type="Control" parent="."]
+margin_left = 662.0
+margin_top = 296.0
+margin_right = 662.0
+margin_bottom = 196.0
+script = ExtResource( 29 )
+
+[node name="normal" type="TextureRect" parent="O"]
+texture = ExtResource( 10 )
+
+[node name="pressed" type="TextureRect" parent="O"]
+texture = ExtResource( 12 )
+
+[node name="P" type="Control" parent="."]
+margin_left = 732.0
+margin_top = 296.0
+margin_right = 732.0
+margin_bottom = 196.0
+script = ExtResource( 32 )
+
+[node name="normal" type="TextureRect" parent="P"]
+texture = ExtResource( 11 )
+
+[node name="pressed" type="TextureRect" parent="P"]
+texture = ExtResource( 13 )
+
+[node name="{" type="Control" parent="."]
+margin_left = 802.0
+margin_top = 296.0
+margin_right = 732.0
+margin_bottom = 196.0
+script = ExtResource( 88 )
+
+[node name="normal" type="TextureRect" parent="{"]
+texture = ExtResource( 92 )
+
+[node name="pressed" type="TextureRect" parent="{"]
+texture = ExtResource( 93 )
+
+[node name="}" type="Control" parent="."]
+margin_left = 872.0
+margin_top = 296.0
+margin_right = 732.0
+margin_bottom = 196.0
+script = ExtResource( 89 )
+
+[node name="normal" type="TextureRect" parent="}"]
+texture = ExtResource( 90 )
+
+[node name="pressed" type="TextureRect" parent="}"]
+texture = ExtResource( 91 )
+
+[node name="\\" type="Control" parent="."]
+margin_left = 942.0
+margin_top = 296.0
+margin_right = 732.0
+margin_bottom = 196.0
+script = ExtResource( 100 )
+
+[node name="normal" type="TextureRect" parent="\\"]
+texture = ExtResource( 101 )
+
+[node name="pressed" type="TextureRect" parent="\\"]
+texture = ExtResource( 102 )
+
+[node name="CapsLock" type="Control" parent="."]
+margin_left = 2.0
+margin_top = 364.0
+margin_right = 107.0
+margin_bottom = 330.0
+script = ExtResource( 61 )
+
+[node name="normal" type="TextureRect" parent="CapsLock"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 60 )
+
+[node name="pressed" type="TextureRect" parent="CapsLock"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 59 )
+
+[node name="toggled" type="TextureRect" parent="CapsLock"]
+margin_left = 27.0
+margin_top = 39.0
+texture = ExtResource( 58 )
+
+[node name="A" type="Control" parent="."]
+margin_left = 115.0
+margin_top = 364.0
+script = ExtResource( 4 )
+
+[node name="normal" type="TextureRect" parent="A"]
+texture = ExtResource( 5 )
+
+[node name="pressed" type="TextureRect" parent="A"]
+texture = ExtResource( 6 )
+
+[node name="S" type="Control" parent="."]
+margin_left = 185.0
+margin_top = 364.0
+script = ExtResource( 38 )
+
+[node name="normal" type="TextureRect" parent="S"]
+texture = ExtResource( 43 )
+
+[node name="pressed" type="TextureRect" parent="S"]
+texture = ExtResource( 42 )
+
+[node name="D" type="Control" parent="."]
+margin_left = 255.0
+margin_top = 364.0
+script = ExtResource( 35 )
+
+[node name="normal" type="TextureRect" parent="D"]
+texture = ExtResource( 44 )
+
+[node name="pressed" type="TextureRect" parent="D"]
+texture = ExtResource( 45 )
+
+[node name="F" type="Control" parent="."]
+margin_left = 325.0
+margin_top = 364.0
+script = ExtResource( 41 )
+
+[node name="normal" type="TextureRect" parent="F"]
+texture = ExtResource( 48 )
+
+[node name="pressed" type="TextureRect" parent="F"]
+texture = ExtResource( 52 )
+
+[node name="G" type="Control" parent="."]
+margin_left = 395.0
+margin_top = 364.0
+script = ExtResource( 34 )
+
+[node name="normal" type="TextureRect" parent="G"]
+texture = ExtResource( 55 )
+
+[node name="pressed" type="TextureRect" parent="G"]
+texture = ExtResource( 51 )
+
+[node name="H" type="Control" parent="."]
+margin_left = 465.0
+margin_top = 364.0
+script = ExtResource( 36 )
+
+[node name="normal" type="TextureRect" parent="H"]
+texture = ExtResource( 56 )
+
+[node name="pressed" type="TextureRect" parent="H"]
+texture = ExtResource( 57 )
+
+[node name="J" type="Control" parent="."]
+margin_left = 535.0
+margin_top = 364.0
+script = ExtResource( 37 )
+
+[node name="normal" type="TextureRect" parent="J"]
+texture = ExtResource( 46 )
+
+[node name="pressed" type="TextureRect" parent="J"]
+texture = ExtResource( 53 )
+
+[node name="K" type="Control" parent="."]
+margin_left = 605.0
+margin_top = 364.0
+script = ExtResource( 39 )
+
+[node name="normal" type="TextureRect" parent="K"]
+texture = ExtResource( 49 )
+
+[node name="pressed" type="TextureRect" parent="K"]
+texture = ExtResource( 54 )
+
+[node name="L" type="Control" parent="."]
+margin_left = 675.0
+margin_top = 364.0
+script = ExtResource( 40 )
+
+[node name="normal" type="TextureRect" parent="L"]
+texture = ExtResource( 47 )
+
+[node name="pressed" type="TextureRect" parent="L"]
+texture = ExtResource( 50 )
+
+[node name=";" type="Control" parent="."]
+margin_left = 745.0
+margin_top = 364.0
+script = ExtResource( 95 )
+
+[node name="normal" type="TextureRect" parent=";"]
+texture = ExtResource( 99 )
+
+[node name="pressed" type="TextureRect" parent=";"]
+texture = ExtResource( 98 )
+
+[node name="\'" type="Control" parent="."]
+margin_left = 815.0
+margin_top = 364.0
+script = ExtResource( 94 )
+
+[node name="normal" type="TextureRect" parent="\'"]
+texture = ExtResource( 97 )
+
+[node name="pressed" type="TextureRect" parent="\'"]
+texture = ExtResource( 96 )
+
+[node name="Enter" type="Control" parent="."]
+margin_left = 885.0
+margin_top = 364.0
+rect_scale = Vector2( 0.818, 1 )
+script = ExtResource( 145 )
+
+[node name="normal" type="TextureRect" parent="Enter"]
+texture = ExtResource( 146 )
+
+[node name="pressed" type="TextureRect" parent="Enter"]
+texture = ExtResource( 147 )
+
+[node name="Shift" type="Control" parent="."]
+margin_top = 434.0
+script = ExtResource( 62 )
+
+[node name="normal" type="TextureRect" parent="Shift"]
+texture = ExtResource( 63 )
+
+[node name="pressed" type="TextureRect" parent="Shift"]
+texture = ExtResource( 64 )
+
+[node name="Z" type="Control" parent="."]
+margin_left = 135.0
+margin_top = 434.0
+script = ExtResource( 65 )
+
+[node name="normal" type="TextureRect" parent="Z"]
+texture = ExtResource( 67 )
+
+[node name="pressed" type="TextureRect" parent="Z"]
+texture = ExtResource( 66 )
+
+[node name="X" type="Control" parent="."]
+margin_left = 205.0
+margin_top = 434.0
+script = ExtResource( 81 )
+
+[node name="normal" type="TextureRect" parent="X"]
+texture = ExtResource( 71 )
+
+[node name="pressed" type="TextureRect" parent="X"]
+texture = ExtResource( 72 )
+
+[node name="C" type="Control" parent="."]
+margin_left = 275.0
+margin_top = 434.0
+script = ExtResource( 84 )
+
+[node name="normal" type="TextureRect" parent="C"]
+texture = ExtResource( 74 )
+
+[node name="pressed" type="TextureRect" parent="C"]
+texture = ExtResource( 78 )
+
+[node name="V" type="Control" parent="."]
+margin_left = 345.0
+margin_top = 434.0
+script = ExtResource( 83 )
+
+[node name="normal" type="TextureRect" parent="V"]
+texture = ExtResource( 69 )
+
+[node name="pressed" type="TextureRect" parent="V"]
+texture = ExtResource( 75 )
+
+[node name="B" type="Control" parent="."]
+margin_left = 415.0
+margin_top = 434.0
+script = ExtResource( 82 )
+
+[node name="normal" type="TextureRect" parent="B"]
+texture = ExtResource( 73 )
+
+[node name="pressed" type="TextureRect" parent="B"]
+texture = ExtResource( 76 )
+
+[node name="N" type="Control" parent="."]
+margin_left = 485.0
+margin_top = 434.0
+script = ExtResource( 80 )
+
+[node name="normal" type="TextureRect" parent="N"]
+texture = ExtResource( 68 )
+
+[node name="pressed" type="TextureRect" parent="N"]
+texture = ExtResource( 77 )
+
+[node name="M" type="Control" parent="."]
+margin_left = 555.0
+margin_top = 434.0
+script = ExtResource( 85 )
+
+[node name="normal" type="TextureRect" parent="M"]
+texture = ExtResource( 79 )
+
+[node name="pressed" type="TextureRect" parent="M"]
+texture = ExtResource( 70 )
+
+[node name="Ctrl" type="Control" parent="."]
+margin_top = 504.0
+script = ExtResource( 200 )
+
+[node name="normal" type="TextureRect" parent="Ctrl"]
+texture = ExtResource( 202 )
+
+[node name="pressed" type="TextureRect" parent="Ctrl"]
+texture = ExtResource( 205 )
+
+[node name="Meta" type="Control" parent="."]
+margin_left = 100.0
+margin_top = 504.0
+script = ExtResource( 220 )
+
+[node name="normal" type="TextureRect" parent="Meta"]
+texture = ExtResource( 206 )
+
+[node name="pressed" type="TextureRect" parent="Meta"]
+texture = ExtResource( 207 )
+
+[node name="Alt" type="Control" parent="."]
+margin_left = 177.0
+margin_top = 504.0
+script = ExtResource( 221 )
+
+[node name="normal" type="TextureRect" parent="Alt"]
+texture = ExtResource( 201 )
+
+[node name="pressed" type="TextureRect" parent="Alt"]
+texture = ExtResource( 208 )
+
+[node name="Space" type="Control" parent="."]
+margin_left = 263.0
+margin_top = 504.0
+rect_scale = Vector2( 1.14, 1 )
+script = ExtResource( 219 )
+
+[node name="normal" type="TextureRect" parent="Space"]
+texture = ExtResource( 204 )
+
+[node name="pressed" type="TextureRect" parent="Space"]
+texture = ExtResource( 203 )
+
+[node name="Alt Gr" type="Control" parent="."]
+margin_left = 707.0
+margin_top = 504.0
+script = ExtResource( 215 )
+
+[node name="normal" type="TextureRect" parent="Alt Gr"]
+texture = ExtResource( 212 )
+
+[node name="pressed" type="TextureRect" parent="Alt Gr"]
+texture = ExtResource( 209 )
+
+[node name="Fn" type="Control" parent="."]
+margin_left = 795.0
+margin_top = 504.0
+script = ExtResource( 216 )
+
+[node name="normal" type="TextureRect" parent="Fn"]
+texture = ExtResource( 214 )
+
+[node name="pressed" type="TextureRect" parent="Fn"]
+texture = ExtResource( 213 )
+
+[node name="Menu" type="Control" parent="."]
+margin_left = 872.0
+margin_top = 504.0
+script = ExtResource( 217 )
+
+[node name="normal" type="TextureRect" parent="Menu"]
+texture = ExtResource( 211 )
+
+[node name="pressed" type="TextureRect" parent="Menu"]
+texture = ExtResource( 210 )
+
+[node name="RightCtrl" type="Control" parent="."]
+margin_left = 942.0
+margin_top = 504.0
+script = ExtResource( 218 )
+
+[node name="normal" type="TextureRect" parent="RightCtrl"]
+texture = ExtResource( 202 )
+
+[node name="pressed" type="TextureRect" parent="RightCtrl"]
+texture = ExtResource( 205 )
+
+[node name="," type="Control" parent="."]
+margin_left = 625.0
+margin_top = 434.0
+script = ExtResource( 189 )
+
+[node name="normal" type="TextureRect" parent=","]
+texture = ExtResource( 193 )
+
+[node name="pressed" type="TextureRect" parent=","]
+texture = ExtResource( 194 )
+
+[node name="Period" type="Control" parent="."]
+margin_left = 695.0
+margin_top = 434.0
+script = ExtResource( 187 )
+
+[node name="normal" type="TextureRect" parent="Period"]
+texture = ExtResource( 192 )
+
+[node name="pressed" type="TextureRect" parent="Period"]
+texture = ExtResource( 191 )
+
+[node name="slash" type="Control" parent="."]
+margin_left = 765.0
+margin_top = 434.0
+script = ExtResource( 188 )
+
+[node name="normal" type="TextureRect" parent="slash"]
+texture = ExtResource( 190 )
+
+[node name="pressed" type="TextureRect" parent="slash"]
+texture = ExtResource( 195 )
+
+[node name="RightShift" type="Control" parent="."]
+margin_left = 835.0
+margin_top = 434.0
+rect_scale = Vector2( 1.587, 1 )
+script = ExtResource( 196 )
+
+[node name="normal" type="TextureRect" parent="RightShift"]
+texture = ExtResource( 63 )
+
+[node name="pressed" type="TextureRect" parent="RightShift"]
+texture = ExtResource( 64 )
