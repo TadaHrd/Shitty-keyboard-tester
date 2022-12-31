@@ -1,10 +1,10 @@
 echo off
 cls
+title File copier (TM)
 color help
 set /p "color=Color: "
 color %color%
 cls
-title File copier (TM)
 set /p "folder=Folder to copy from: "
 set /p "file=File to copy: "
 set /p "extension=Copied files file extension: ."
